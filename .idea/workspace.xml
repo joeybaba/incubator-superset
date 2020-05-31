@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57697e27-135a-4b5c-a79c-002adca0fa13" name="Default Changelist" comment="" />
+    <list default="true" id="57697e27-135a-4b5c-a79c-002adca0fa13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mywork/covid2019/covid2019.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/README.cn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/data/Chinese City Population.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/data/locationDict.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/outputs/Mortality_vs_Confirmed_2020-03-01_international.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/IL_death_demographic.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/STFANGSO.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/Sensitivity_Specificity.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/coronavirus_demo_colab.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/data_sources.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/death_rate.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/death_rate_colab.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/demo.en.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/demo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/international_colab.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/pypy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/translation_notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mywork/ncovanalysis/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/incubator-superset.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/incubator-superset.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mywork/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../mywork/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mywork/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mywork/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mywork/.idea/mywork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mywork/.idea/mywork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mywork/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mywork/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mywork/Pandas/data_visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../mywork/Pandas/data_visualization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mywork/Pandas/pandas_intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../mywork/Pandas/pandas_intro.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cR6bq3ZlZbrZSysTES6rNKPIFM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,7 +109,15 @@
       <workItem from="1590506921592" duration="9007000" />
       <workItem from="1590558011872" duration="5444000" />
       <workItem from="1590638685557" duration="532000" />
-      <workItem from="1590639278187" duration="1468000" />
+      <workItem from="1590639278187" duration="3557000" />
+      <workItem from="1590724895366" duration="1055000" />
+      <workItem from="1590726311727" duration="308000" />
+      <workItem from="1590727060621" duration="468000" />
+      <workItem from="1590740493987" duration="9000" />
+      <workItem from="1590774534074" duration="2099000" />
+      <workItem from="1590817791379" duration="953000" />
+      <workItem from="1590821416359" duration="1869000" />
+      <workItem from="1590856541947" duration="677000" />
     </task>
     <servers />
   </component>

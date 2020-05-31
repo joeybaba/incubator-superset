@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/incubator-superset.iml" filepath="$PROJECT_DIR$/.idea/incubator-superset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mywork/.idea/mywork.iml" filepath="$PROJECT_DIR$/../mywork/.idea/mywork.iml" />
     </modules>
   </component>
 </project>
