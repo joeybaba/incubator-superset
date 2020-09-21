@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
 # distributed with this work for additional information
@@ -52,10 +53,10 @@ def dataframe_with_arrays(include_index=False):
 
     fields.append(pa.field('str', pa.list_(pa.string())))
     arrays['str'] = [
-        np.array(["1", "ä"], dtype="object"),
+        np.array([u"1", u"ä"], dtype="object"),
         None,
-        np.array(["1"], dtype="object"),
-        np.array(["1", "2", "3"], dtype="object")
+        np.array([u"1"], dtype="object"),
+        np.array([u"1", u"2", u"3"], dtype="object")
     ]
 
     fields.append(pa.field('datetime64', pa.list_(pa.timestamp('ms'))))
@@ -122,10 +123,10 @@ def dataframe_with_lists(include_index=False, parquet_compatible=False):
     ]
     fields.append(pa.field('str_list', pa.list_(pa.string())))
     arrays['str_list'] = [
-        ["1", "ä"],
+        [u"1", u"ä"],
         None,
-        ["1"],
-        ["1", "2", "3"],
+        [u"1"],
+        [u"1", u"2", u"3"],
         [],
     ]
 

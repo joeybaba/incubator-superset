@@ -19,6 +19,8 @@
 # distutils: language = c++
 # cython: embedsignature = True
 
+from __future__ import absolute_import
+
 from cython.operator cimport dereference as deref
 from libcpp.vector cimport vector as std_vector
 from pyarrow.includes.common cimport *
@@ -30,6 +32,7 @@ from pyarrow.lib cimport (check_status,
                           RecordBatch,
                           pyarrow_wrap_table,
                           get_reader)
+import six
 
 
 cdef class ORCReader:

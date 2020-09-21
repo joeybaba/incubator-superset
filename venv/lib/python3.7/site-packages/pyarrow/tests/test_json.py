@@ -32,13 +32,14 @@ from pyarrow.json import read_json, ReadOptions, ParseOptions
 def generate_col_names():
     # 'a', 'b'... 'z', then 'aa', 'ab'...
     letters = string.ascii_lowercase
-    yield from letters
-    for first in letters:
-        for second in letters:
+    for letter in letters:
+        yield letter
+    for first in letter:
+        for second in letter:
             yield first + second
 
 
-def make_random_json(num_cols=2, num_rows=10, linesep='\r\n'):
+def make_random_json(num_cols=2, num_rows=10, linesep=u'\r\n'):
     arr = np.random.RandomState(42).randint(0, 1000, size=(num_cols, num_rows))
     col_names = list(itertools.islice(generate_col_names(), num_cols))
     lines = []
@@ -160,7 +161,7 @@ class BaseTestJSONRead:
         assert table.to_pydict() == {
             'a': [1.0, 4.0],
             'b': [2, -5],
-            'c': ["3", "foo"],
+            'c': [u"3", u"foo"],
             'd': [False, True],
             }
 
@@ -179,7 +180,7 @@ class BaseTestJSONRead:
         assert table.to_pydict() == {
             'a': [1.0, None, 4.5],
             'b': [2, -5, None],
-            'c': [None, "foo", "nan"],
+            'c': [None, u"foo", u"nan"],
             'd': [None, None, None],
             'e': [None, True, False],
             }

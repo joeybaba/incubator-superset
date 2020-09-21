@@ -15,6 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
+from __future__ import absolute_import
 
 from itertools import count
 from numbers import Integral
@@ -40,12 +41,14 @@ def _traverse(typ, counter):
             for sub, c in _traverse(field.type, counter):
                 yield path + sub, c
     elif _is_map(typ):
-        yield from _traverse(typ.value_type, counter)
+        for sub_c in _traverse(typ.value_type, counter):
+            yield sub_c
     elif types.is_list(typ):
         # Skip one index for list type, since this can never be selected
         # directly
         next(counter)
-        yield from _traverse(typ.value_type, counter)
+        for sub_c in _traverse(typ.value_type, counter):
+            yield sub_c
     elif types.is_union(typ):
         # Union types not supported, just skip the indexes
         for dtype in typ:
@@ -58,7 +61,7 @@ def _schema_to_indices(schema):
     return {'.'.join(i): c for i, c in _traverse(schema, count(1))}
 
 
-class ORCFile:
+class ORCFile(object):
     """
     Reader interface for a single ORC file
 
